@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#pokemonName{
+    padding : 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: larger;
+    font-family: monospace;
+    text-align: center;
+    background-color:grey;
+    color: black;
+}
+
+#pokemonName::placeholder {
+  color: black; /* your color */
+  opacity: 1; /* optional: prevents dimming in Firefox */
+}
+
+
+#fetchPokemon{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#pokemonImage{
+    width: 300px;
+    height: 300px;
+}
