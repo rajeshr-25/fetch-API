@@ -9,7 +9,6 @@ async function fetchData() {
     ); // Fetch data from the PokeAPI
     const data = await response.json(); // Parse the response as JSON
     document.querySelector(".details").style.display = "block"; // Show the details section
-    console.log(data);
 
     // pokemon sprite
     const pokemonSprite = data.sprites.front_default; // Get the front default sprite URL
